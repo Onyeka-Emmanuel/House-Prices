@@ -108,6 +108,6 @@ confint(modelreduced) #View the confidence intervals
 
 
 # The relationship of Sale Price to square footage of living area can be derived from the coefficients below
-summary(modelfull)$coefficients #View intercept and slopes
+summary(modelreduced)$coefficients #View intercept and slopes
 
 
